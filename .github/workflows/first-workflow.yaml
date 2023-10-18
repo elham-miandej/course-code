@@ -1,4 +1,5 @@
 name: first Workflow
+run-name: ${{ github.actor }} is testing first workflow 🚀
 on: [push]
 
 jobs:
