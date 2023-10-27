@@ -18,10 +18,10 @@ jobs:
             - name: Checkout
               run: |
                git init
-               git remote add origin "htto://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github
+               git remote add origin "http://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github
                .com/$GITHUB_RRPOSITORY.git"
                git fetch origin
-               git checkout master
+               git checkout main
             - name: List Files After
               run: ls -a
 
