@@ -21,7 +21,7 @@ jobs:
                git remote add origin "htto://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github
                .com/$GITHUB_RRPOSITORY.git"
                git fetch origin
-               git checkout main
+               git checkout master
             - name: List Files After
               run: ls -a
 
