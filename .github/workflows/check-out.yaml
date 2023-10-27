@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
     checkout-action:
-        runs-on: ubunto-latest
+        runs-on: ubuntu-latest
         steps:
              - name: List Files Before
                run: ls -a
@@ -11,7 +11,7 @@ jobs:
              - name: List Files After
                run: ls -a
     checkout-and_disply-files:
-        runs-on: ubunto-latest
+        runs-on:  ubuntu-latest
         steps:
             - name: list
               run: ls -a
