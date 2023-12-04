@@ -4,5 +4,5 @@ on:
 jobs:
   log-info:
      runs-on: ubuntu-latest
-     -steps: 
-        run: echo $GITHUB_REF   
+     steps: 
+        - run: echo $GITHUB_REF   
