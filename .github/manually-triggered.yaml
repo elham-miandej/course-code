@@ -1,6 +1,7 @@
 name: manually triggered
 on:
-   workflow-dispatch:
+   workflow_dispatch:
+   
 jobs:
   log-info:
      runs-on: ubuntu-latest
